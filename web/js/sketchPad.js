@@ -60,7 +60,7 @@ class SketchPad {
             this.canvas.onmousemove(loc)
         }
         document.ontouchend=() => {
-            this.canvas.onmouseup()
+            document.onmouseup()
         }
 
         this.undoBtn.onclick=() => {
